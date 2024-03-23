@@ -54,5 +54,5 @@ The application measures and compares the time complexities of inserting words i
 
 ## Running the application
 
-Vídeo
+[Link do vídeo no youtube](https://youtu.be/99fNfkGmTLQ)
 
