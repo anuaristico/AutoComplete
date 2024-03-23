@@ -26,6 +26,7 @@ if arquivo_pdf:
     fim_list = time.time()
     tempo_execucao_list = fim_list - inicio_list
     prefixo = st.text_input("Digite um prefixo:")
+    prefixo = prefixo.lower()
     if prefixo:
         inicio_avl2 = time.time()
         palavras_com_prefixo = nlp.find_words_with_prefix(
