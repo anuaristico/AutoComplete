@@ -47,7 +47,7 @@ The application utilizes three data structures to store and search for words:
 ## Performance Comparison
 
 The application measures and compares the time complexities of inserting words into each data structure and searching for words with a given prefix. The results are displayed in a table to help users understand the trade-offs between different data structures.
-## Autores
+## Authors
 
 - Josué Anuar Costa de Medeiros [@anuaristico](https://github.com/anuaristico)
 
