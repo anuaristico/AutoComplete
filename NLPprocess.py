@@ -155,21 +155,21 @@ def find_words_with_prefix_bst(bst_root, prefix):
 
 def find_words_with_prefix_list(list, prefix):
     """
-    Encontra palavras em uma lista que começam com o prefixo dado.
+    Finds words in a list that start with the given prefix.
 
     Args:
-      words: A lista de palavras a serem pesquisadas. (The list of words to search.)
-      prefix: O prefixo a ser pesquisado. (The prefix to search for.)
+      words: The list of words to search.
+      prefix: The prefix to search for.
 
     Returns:
-      list: Uma lista de palavras na lista que começam com o prefixo. (A list of words in the list that start with the prefix.)
+      list: A list of words in the list that start with the prefix.
     """
 
     matching_words = []
     for word in list:
-        # Verifica se a palavra começa com o prefixo. (Checks if the word starts with the prefix.)
+        # Checks if the word starts with the prefix.
         if word.startswith(prefix):
-            # Adiciona a palavra à lista de resultados. (Adds the word to the list of results.)
+            # Adds the word to the list of results.
             matching_words.append(word)
 
     return matching_words
